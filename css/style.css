@@ -1,0 +1,161 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+   justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+header ul{
+    justify-content: flex-end;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+header ul  li a{
+    text-decoration: none;
+    padding: 0px 8px;
+    color: black;
+    font-size: 18px;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+}
+
+header ul li button{
+    padding: 8px 20px;
+    border-radius: 10%;
+    color: white;
+    background-color: #3494e9;
+}
+
+header ul li button:hover{
+    background-color: #087de4;
+}
+
+.main{
+    width: 580px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.main img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.main .searchbox{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.main .searchbox .sss{
+    width: 100%;
+    padding: 14px;
+    padding-left: 45px;
+    border-radius: 30px;
+    border: 1px solid gray;
+
+}
+
+.main .searchbox .button {
+    display: flex;
+    top:10px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+   
+   
+}
+
+.main .box{
+    margin: 15px;
+    width: 100%;
+    
+}
+
+.main .box button{
+    padding: 8px 20px;
+    margin: 8px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(250, 246, 246);
+}
+
+.main .box button a{
+    text-decoration: none;
+    color: black;
+}
+
+.main .box button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.589);
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flexbox;
+    bottom: 0;
+    position: absolute;
+
+}
+
+footer p{
+    margin-left: 50px;
+    
+}
+
+footer .country{
+    border-bottom: 3px solid white;
+}
+
+footer .foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+footer .foot ul li{
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+footer .foot ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .foot ul li a:hover{
+    text-decoration: underline;
+}
